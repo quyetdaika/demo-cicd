@@ -12,4 +12,4 @@ app.use(cors());
 app.use("/api", require("./routes"));
 
 const PORT = process.env.PORT || 8000;
-app.listen(PORT, () => console.log(`test 2 App listening on port ${PORT}!`));
+app.listen(PORT, () => console.log(`test 4 App listening on port ${PORT}!`));
